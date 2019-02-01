@@ -44,11 +44,11 @@ $ php bin/console app:request-report Germany Berlin
 API endpoints, paging, possible parameters:
 
 ```bash
-$ curl "http://127.0.0.1:8000/"
-$ curl "http://127.0.0.1:8000/countries"
-$ curl "http://127.0.0.1:8000/weather"
-$ curl "http://127.0.0.1:8000/weather?page=1&start_date=2018-06-25&end_date=2018-06-26&temperature=17&direction=higher&city_id=2"
-$ curl "http://127.0.0.1:8000/weather?page=2&start_date=2018-06-25&end_date=2018-06-26"
+$ curl "http://localhost:8000/"
+$ curl "http://localhost:8000/countries"
+$ curl "http://localhost:8000/weather"
+$ curl "http://localhost:8000/weather?page=1&start_date=2018-06-25&end_date=2018-06-26&temperature=17&direction=higher&city_id=2"
+$ curl "http://localhost:8000/weather?page=2&start_date=2018-06-25&end_date=2018-06-26"
 ```
 
 Tests
